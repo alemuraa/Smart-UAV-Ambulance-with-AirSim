@@ -1,0 +1,34 @@
+{
+	"SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/main/docs/settings.md",
+	"SettingsVersion": 1.2,
+	"SimMode": "Multirotor",
+	"LocalHostIp": "10.0.0.17",
+	"ApiServerPort": 41451,
+	"Vehicles": {
+		"Drone": {
+			"VehicleType": "SimpleFlight",
+			"Sensors": {
+				"Lidar1": {
+					"SensorType": 6,
+						"Enabled" : true,
+						"NumberOfChannels": 1,
+						"RotationsPerSecond": 10,
+						"PointsPerSecond": 500,
+						"X": 0, "Y": 0, "Z": -0.1,
+						"Roll": 0, "Pitch": 0, "Yaw" : 0,
+						"VerticalFOVUpper": 0,
+						"VerticalFOVLower": 0,
+						"HorizontalFOVStart": -75,
+						"HorizontalFOVEnd": 75,
+						"DataFrame": "SensorLocalFrame",
+						"DrawDebugPoints": false
+				}
+			}
+		}
+	},
+	"OriginGeopoint": {
+		"Latitude": 44.396111,
+		"Longitude": 8.943802,
+		"Altitude": 0
+	}
+}
